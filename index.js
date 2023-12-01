@@ -57,12 +57,16 @@ app.get('/api/country/:pg',async(req,res)=>{//This route returns cat breeds grou
 //Assignment_2 Routes
 
 app.post('/message',(req,res)=>{//Using regular expression to check whether there are atleast 8 or more than eight words present.
-    const {text}=req.body
-    const wordCountPattern = /\b\w+\b/g;
-    const words = text.match(wordCountPattern);
-    const atLeastEightWords = words && words.length >= 8;
-
-!atLeastEightWords?res.status(200).send('there are less than 8 worlds'):res.status(400).send('no of words exceeded 8 worlds')    
+    try{
+        const {text}=req.body
+        const wordCountPattern = /\b\w+\b/g;
+        const words = text.match(wordCountPattern);
+        const atLeastEightWords = words && words.length >= 8;
+    
+    !atLeastEightWords?res.status(200).send('there are less than 8 worlds'):res.status(400).send('no of words exceeded 8 worlds') 
+    }   catch(error){
+        res.status(400).send('something went wrong', error)
+    }
 })
 
 app.listen('3000',()=>{
