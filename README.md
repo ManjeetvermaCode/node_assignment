@@ -1,4 +1,6 @@
 ## node_assignment
+## This project is fetching data from 'https://catfact.ninja/breeds' url using Axios. Backend is written using nodejs and expressjs.
+
 
 # To run this project on your machine either you can Download the file, then extract all and then open in your code editor or use command 'git clone <repo_url>'.
 
