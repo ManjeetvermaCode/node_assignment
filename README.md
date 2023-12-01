@@ -1,8 +1,8 @@
 ## node_assignment
-## This project is fetching data from 'https://catfact.ninja/breeds' url using Axios. Backend is written using nodejs and expressjs.
+## This project is fetching data from 'https://catfact.ninja/breeds' url using Axios. Backend of this app is written using nodejs and expressjs.
 
 
-# To run this project on your machine either you can Download the file, then extract all and then open in your code editor or use command 'git clone <repo_url>'.
+# To run this project on your machine either you can Download the file, then extract all and then open in your preferred code editor or use command 'git clone <repo_url>'.
 
 # To install dependecies enter cmd (Make sure to have nodejs installed.)
 `npm install`
@@ -11,13 +11,13 @@
 
 # Here is the list of api endpoints with their respective description.
 
-| Description                           | Api endpoint                              |
+| Description                           | Api endpoints                             |
 |---------------------------------------| ------------------------------------------|
-| To fetch data from all the pages      | http://localhost:3000/api                 |
-| To fetch data from a specific page    | http://localhost:3000/api/page_no         |
-| To fetch cat breeds grouped by Country| http://localhost:3000/api/country/page_no |
+| To fetch data from all the pages.     | http://localhost:3000/api                 |
+| To fetch data from a specific page.   | http://localhost:3000/api/page_no         |
+| To fetch cat breeds group by Country. | http://localhost:3000/api/country/page_no |
 
-# Route that checks where the incomming string has atleast 8 or more than 8 world using Regular Expressions (RegEx)
+# Route that checks whether the incomming string has atleast 8 or more than 8 words using Regular Expressions (RegEx)
 
 ```
 app.post('/message',(req,res)=>{//Using regular expression to check whether there are atleast 8 or more than eight words present.
@@ -34,4 +34,4 @@ app.post('/message',(req,res)=>{//Using regular expression to check whether ther
 })
 ```
 
-Use Api development tools like Postman for testing this route via sending data through forms-data or form-urlencoded data
+Use Api development tools like Postman for testing this route and for sending payload data via forms-data or form-urlencoded data
