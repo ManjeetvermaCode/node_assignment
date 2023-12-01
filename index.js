@@ -1,5 +1,7 @@
 const express=require('express')
 const axios=require('axios')
+const fs=require('fs')
+const groupBy =require('./utils/groupByCountry')
 
 const app=express()
 
@@ -10,27 +12,45 @@ app.use(express.json())
 const Url='https://catfact.ninja/breeds'
 
 
-app.get('/',async(req,res)=>{
+app.get('/api/',async(req,res)=>{//This route gets 'data' from all the pages.
    try{
     const arr=[]
     for(let i=0;i<5;i++){
         const {data}=await axios.get(`${Url}?page=${i+1}`)
         arr.push(data)
     }
+    const allData='received_Data/all_data_response.txt'
+    fs.writeFileSync(allData,JSON.stringify(arr,null,2))// Log the response AS-IS to a text file
     res.json(arr)
    }catch(error){
     res.send(`Something went wrong, ${error}`)
    }
 })
 
-app.get('/:pg',async(req,res)=>{
+app.get('/api/:pg',async(req,res)=>{// This route gets data from a specific page
     try{
         const {pg}=req.params
+        const file=`received_Data/pg${pg}.txt`
         const {data}=await axios.get(`${Url}?page=${pg}`)
+        fs.writeFileSync(file,JSON.stringify(data,null,2))// Log the response AS-IS to a text file
         res.send(data)
     }catch(error){
         res.send(`Unable to fetch data from page number ${pg}`)
     }
+})
+
+app.get('/api/country/:pg',async(req,res)=>{//This route return cat breeds grouped by Country 
+    try{
+        const {pg}=req.params
+        const {data}=await axios.get(`${Url}?page=${pg}`)
+        const result=groupBy(data.data,'country')
+        const file=`received_Data/groupByCountry_${pg}.txt`
+        fs.writeFileSync(file,JSON.stringify(result,null,2))// Log the response AS-IS to a text file
+        res.json(result)
+    }catch(error){
+        res.send('Unable to return cat breeds grouped by Country- ', error)
+    }
+
 })
 
 app.listen('3000',()=>{

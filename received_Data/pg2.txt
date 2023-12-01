@@ -1,0 +1,222 @@
+{
+  "current_page": 2,
+  "data": [
+    {
+      "breed": "Cheetoh",
+      "country": "United States",
+      "origin": "Hybrid Crossbreed",
+      "coat": "Short",
+      "pattern": "Spotted"
+    },
+    {
+      "breed": "Colorpoint Shorthair",
+      "country": "",
+      "origin": "",
+      "coat": "Short",
+      "pattern": ""
+    },
+    {
+      "breed": "Cornish Rex",
+      "country": "United Kingdom (England)",
+      "origin": "Mutation",
+      "coat": "Rex",
+      "pattern": "All"
+    },
+    {
+      "breed": "Cymric or Manx Longhair",
+      "country": "United Kingdom (Isle of Man)",
+      "origin": "Natural/Mutation",
+      "coat": "Long",
+      "pattern": ""
+    },
+    {
+      "breed": "Cyprus",
+      "country": "Cyprus",
+      "origin": "Natural",
+      "coat": "All",
+      "pattern": "All"
+    },
+    {
+      "breed": "Devon Rex",
+      "country": "United Kingdom (England)",
+      "origin": "Mutation",
+      "coat": "Rex",
+      "pattern": "All"
+    },
+    {
+      "breed": "Donskoy, or Don Sphynx",
+      "country": "Russia",
+      "origin": "",
+      "coat": "Hairless",
+      "pattern": ""
+    },
+    {
+      "breed": "Dragon Li",
+      "country": "China",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Striped tabby"
+    },
+    {
+      "breed": "Dwarf cat, or Dwelf",
+      "country": "",
+      "origin": "Crossbreed",
+      "coat": "",
+      "pattern": "Hairless"
+    },
+    {
+      "breed": "Egyptian Mau",
+      "country": "Egypt",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Spotted"
+    },
+    {
+      "breed": "European Shorthair",
+      "country": "Finland and Sweden",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": ""
+    },
+    {
+      "breed": "Exotic Shorthair",
+      "country": "United States",
+      "origin": "Crossbreed",
+      "coat": "Short",
+      "pattern": "All"
+    },
+    {
+      "breed": "Foldex[4]",
+      "country": "Canada",
+      "origin": "Crossbreed",
+      "coat": "Short",
+      "pattern": "All"
+    },
+    {
+      "breed": "German Rex",
+      "country": "East Germany",
+      "origin": "Mutation",
+      "coat": "Rex",
+      "pattern": ""
+    },
+    {
+      "breed": "Havana Brown",
+      "country": "United Kingdom",
+      "origin": "",
+      "coat": "Short",
+      "pattern": "Solid"
+    },
+    {
+      "breed": "Highlander",
+      "country": "United States",
+      "origin": "Crossbreed",
+      "coat": "Short/Long",
+      "pattern": "All"
+    },
+    {
+      "breed": "Himalayan, or Colorpoint Persian",
+      "country": "United States/United Kingdom",
+      "origin": "Crossbreed",
+      "coat": "Long",
+      "pattern": "Colorpoint"
+    },
+    {
+      "breed": "Japanese Bobtail",
+      "country": "Japan",
+      "origin": "Natural",
+      "coat": "Short/Long",
+      "pattern": "All but colorpoint and ticked"
+    },
+    {
+      "breed": "Javanese",
+      "country": "United States",
+      "origin": "Crossbreed",
+      "coat": "Long/Short",
+      "pattern": "Colorpoint"
+    },
+    {
+      "breed": "Karelian Bobtail",
+      "country": "Western Russia",
+      "origin": "Natural",
+      "coat": "",
+      "pattern": ""
+    },
+    {
+      "breed": "Khao Manee",
+      "country": "Thailand",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Solid"
+    },
+    {
+      "breed": "Korat",
+      "country": "Thailand",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Solid"
+    },
+    {
+      "breed": "Korean Bobtail",
+      "country": "Korea",
+      "origin": "Natural",
+      "coat": "Short/Long",
+      "pattern": "Colorprint"
+    },
+    {
+      "breed": "Korn Ja",
+      "country": "Thailand",
+      "origin": "Natural",
+      "coat": "Short/Hairless",
+      "pattern": "Solid"
+    },
+    {
+      "breed": "Kurilian Bobtail, or Kuril Islands Bobtail",
+      "country": "Eastern Russia,Japan",
+      "origin": "Natural",
+      "coat": "Short/Long",
+      "pattern": ""
+    }
+  ],
+  "first_page_url": "https://catfact.ninja/breeds?page=1",
+  "from": 26,
+  "last_page": 4,
+  "last_page_url": "https://catfact.ninja/breeds?page=4",
+  "links": [
+    {
+      "url": "https://catfact.ninja/breeds?page=1",
+      "label": "Previous",
+      "active": false
+    },
+    {
+      "url": "https://catfact.ninja/breeds?page=1",
+      "label": "1",
+      "active": false
+    },
+    {
+      "url": "https://catfact.ninja/breeds?page=2",
+      "label": "2",
+      "active": true
+    },
+    {
+      "url": "https://catfact.ninja/breeds?page=3",
+      "label": "3",
+      "active": false
+    },
+    {
+      "url": "https://catfact.ninja/breeds?page=4",
+      "label": "4",
+      "active": false
+    },
+    {
+      "url": "https://catfact.ninja/breeds?page=3",
+      "label": "Next",
+      "active": false
+    }
+  ],
+  "next_page_url": "https://catfact.ninja/breeds?page=3",
+  "path": "https://catfact.ninja/breeds",
+  "per_page": 25,
+  "prev_page_url": "https://catfact.ninja/breeds?page=1",
+  "to": 50,
+  "total": 98
+}
