@@ -1,0 +1,213 @@
+{
+  "United States": [
+    {
+      "breed": "Cheetoh",
+      "country": "United States",
+      "origin": "Hybrid Crossbreed",
+      "coat": "Short",
+      "pattern": "Spotted"
+    },
+    {
+      "breed": "Exotic Shorthair",
+      "country": "United States",
+      "origin": "Crossbreed",
+      "coat": "Short",
+      "pattern": "All"
+    },
+    {
+      "breed": "Highlander",
+      "country": "United States",
+      "origin": "Crossbreed",
+      "coat": "Short/Long",
+      "pattern": "All"
+    },
+    {
+      "breed": "Javanese",
+      "country": "United States",
+      "origin": "Crossbreed",
+      "coat": "Long/Short",
+      "pattern": "Colorpoint"
+    }
+  ],
+  "": [
+    {
+      "breed": "Colorpoint Shorthair",
+      "country": "",
+      "origin": "",
+      "coat": "Short",
+      "pattern": ""
+    },
+    {
+      "breed": "Dwarf cat, or Dwelf",
+      "country": "",
+      "origin": "Crossbreed",
+      "coat": "",
+      "pattern": "Hairless"
+    }
+  ],
+  "United Kingdom (England)": [
+    {
+      "breed": "Cornish Rex",
+      "country": "United Kingdom (England)",
+      "origin": "Mutation",
+      "coat": "Rex",
+      "pattern": "All"
+    },
+    {
+      "breed": "Devon Rex",
+      "country": "United Kingdom (England)",
+      "origin": "Mutation",
+      "coat": "Rex",
+      "pattern": "All"
+    }
+  ],
+  "United Kingdom (Isle of Man)": [
+    {
+      "breed": "Cymric or Manx Longhair",
+      "country": "United Kingdom (Isle of Man)",
+      "origin": "Natural/Mutation",
+      "coat": "Long",
+      "pattern": ""
+    }
+  ],
+  "Cyprus": [
+    {
+      "breed": "Cyprus",
+      "country": "Cyprus",
+      "origin": "Natural",
+      "coat": "All",
+      "pattern": "All"
+    }
+  ],
+  "Russia": [
+    {
+      "breed": "Donskoy, or Don Sphynx",
+      "country": "Russia",
+      "origin": "",
+      "coat": "Hairless",
+      "pattern": ""
+    }
+  ],
+  "China": [
+    {
+      "breed": "Dragon Li",
+      "country": "China",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Striped tabby"
+    }
+  ],
+  "Egypt": [
+    {
+      "breed": "Egyptian Mau",
+      "country": "Egypt",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Spotted"
+    }
+  ],
+  "Finland and Sweden": [
+    {
+      "breed": "European Shorthair",
+      "country": "Finland and Sweden",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": ""
+    }
+  ],
+  "Canada": [
+    {
+      "breed": "Foldex[4]",
+      "country": "Canada",
+      "origin": "Crossbreed",
+      "coat": "Short",
+      "pattern": "All"
+    }
+  ],
+  "East Germany": [
+    {
+      "breed": "German Rex",
+      "country": "East Germany",
+      "origin": "Mutation",
+      "coat": "Rex",
+      "pattern": ""
+    }
+  ],
+  "United Kingdom": [
+    {
+      "breed": "Havana Brown",
+      "country": "United Kingdom",
+      "origin": "",
+      "coat": "Short",
+      "pattern": "Solid"
+    }
+  ],
+  "United States/United Kingdom": [
+    {
+      "breed": "Himalayan, or Colorpoint Persian",
+      "country": "United States/United Kingdom",
+      "origin": "Crossbreed",
+      "coat": "Long",
+      "pattern": "Colorpoint"
+    }
+  ],
+  "Japan": [
+    {
+      "breed": "Japanese Bobtail",
+      "country": "Japan",
+      "origin": "Natural",
+      "coat": "Short/Long",
+      "pattern": "All but colorpoint and ticked"
+    }
+  ],
+  "Western Russia": [
+    {
+      "breed": "Karelian Bobtail",
+      "country": "Western Russia",
+      "origin": "Natural",
+      "coat": "",
+      "pattern": ""
+    }
+  ],
+  "Thailand": [
+    {
+      "breed": "Khao Manee",
+      "country": "Thailand",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Solid"
+    },
+    {
+      "breed": "Korat",
+      "country": "Thailand",
+      "origin": "Natural",
+      "coat": "Short",
+      "pattern": "Solid"
+    },
+    {
+      "breed": "Korn Ja",
+      "country": "Thailand",
+      "origin": "Natural",
+      "coat": "Short/Hairless",
+      "pattern": "Solid"
+    }
+  ],
+  "Korea": [
+    {
+      "breed": "Korean Bobtail",
+      "country": "Korea",
+      "origin": "Natural",
+      "coat": "Short/Long",
+      "pattern": "Colorprint"
+    }
+  ],
+  "Eastern Russia,Japan": [
+    {
+      "breed": "Kurilian Bobtail, or Kuril Islands Bobtail",
+      "country": "Eastern Russia,Japan",
+      "origin": "Natural",
+      "coat": "Short/Long",
+      "pattern": ""
+    }
+  ]
+}
